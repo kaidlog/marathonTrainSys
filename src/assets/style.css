@@ -1,0 +1,28 @@
+/* 預設中型大小按鈕 */
+.cus-btn-mid {
+    width: 220px;
+}
+/* 分頁位置 */
+.cus-page-position {
+    position: relative;
+    bottom: -50px;
+    height: 100px;
+    text-align: center;
+}
+/* 緊急程度為重要，標示驚嘆號 */
+.ivu-table .table-alert-cell-row td:first-child{
+    background-image: url(images/ic_big_red_alert.svg);
+    background-repeat: no-repeat;
+    background-size: 24px;
+    background-position: 4px;
+}
+/* 是否必填的符號 */
+.cus-required .ivu-form-item-label::before {
+    content: '*';
+    display: inline-block;
+    margin-right: 4px;
+    line-height: 1;
+    font-family: SimSun;
+    font-size: 18px;
+    color: #F46155;
+}
